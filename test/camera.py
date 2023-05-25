@@ -8,7 +8,7 @@ camera = cv2.VideoCapture(0)
 
 detector = VideoObjectDetection()
 detector.setModelTypeAsYOLOv3()
-detector.setModelPath(os.path.join(execution_path , "yolov3.pt"))
+detector.setModelPath(os.path.join(execution_path, "../yolov3.pt"))
 detector.loadModel()
 
 video_path = detector.detectObjectsFromVideo(camera_input=camera,

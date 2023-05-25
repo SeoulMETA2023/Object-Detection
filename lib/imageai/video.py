@@ -1,4 +1,4 @@
-from imageai.Detection import VideoObjectDetection #자체적인 수정 파일.
+from lib.imageai import VideoObjectDetection #자체적인 수정 파일.
 import os
 import cv2
 

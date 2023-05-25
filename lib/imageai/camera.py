@@ -1,4 +1,4 @@
-from imageai.Detection import VideoObjectDetection
+from lib.imageai import VideoObjectDetection
 import os
 import cv2
 
